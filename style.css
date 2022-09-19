@@ -53,12 +53,27 @@ table {
     --bgcolor: #FAFAFA;
 }
 
-@media only screen and (max-width: 480px) {
-    .modal .modal-body {
-        max-height: 420px;
-        overflow-y: auto;
+
+@media only screen and (min-width: 801px){
+.web-embed {
+    display: block;
+}
+
+.mobile-embed {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 800px){
+    .web-embed {
+        display: none;
     }
+    
+    .mobile-embed {
+        display: block;
     }
+}
+
 
 
 body {
