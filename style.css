@@ -53,6 +53,12 @@ table {
     --bgcolor: #FAFAFA;
 }
 
+@media only screen and (max-width: 480px) {
+    .modal .modal-body {
+        max-height: 420px;
+        overflow-y: auto;
+    }
+    }
 
 
 body {
