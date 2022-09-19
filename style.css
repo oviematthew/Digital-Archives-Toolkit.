@@ -59,6 +59,10 @@ table {
     display: block;
 }
 
+.close {
+    display: none;
+}
+
 .mobile-embed {
     display: none;
 }
@@ -69,6 +73,11 @@ table {
         display: none;
     }
     
+    .close {
+        display: block;
+    }
+    
+
     .mobile-embed {
         display: block;
     }
