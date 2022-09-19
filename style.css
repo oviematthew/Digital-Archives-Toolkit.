@@ -196,6 +196,12 @@ li a:hover {
     border: 1px solid var(--gray);
 }
 
+@media only screen and (max-width: 700px) {
+    .textbox {
+        width: 280px;
+    }
+}
+
 .check {
     font-size: 15px;
     display: flex;
